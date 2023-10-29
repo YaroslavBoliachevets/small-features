@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './components/Counter';
 import DropdownMenu from './components/DropdownMenu';
 import ColorPicker from './components/ColorPicker';
+import TodoList from './components/TodoList';
 
 
 const colorPickerOptions = [
@@ -22,6 +23,7 @@ function App() {
       <Counter step={1} />
       <DropdownMenu />
       <ColorPicker colorPickerOptions={colorPickerOptions}/>
+      <TodoList/>
     </div>
   );
 }
